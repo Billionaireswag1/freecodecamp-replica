@@ -1,11 +1,13 @@
-import './App.css'
+import Quote from '../Components/Quote'
 
 function App() {
   
 
   return (
-    <h1>Hello World</h1>
-  )
+    <div>
+      <Quote/>
+      </div>
+  );
 }
 
-export default App
+export default App;
