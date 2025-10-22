@@ -1,12 +1,13 @@
-import Quote from '../Components/Quote'
+
+import Navbar from '../Components/Navbar';
+import Quote from '../Components/Quote';
 
 function App() {
-  
-
   return (
     <div>
-      <Quote/>
-      </div>
+      <Navbar />
+      <Quote />
+    </div>
   );
 }
 
